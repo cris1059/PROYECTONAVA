@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/style.css">
+  <title>Extracción de comentarios de YouTube</title>
+</head>
+<body>
+  <h1 class="title">Analizador de Comentarios de YouTube</h1>
+  
+
+<div class="window containerExecute">
+  <label for="videoUrl">Copia y pega el enlace de Youtube:</label>
+  <input type="text" id="videoUrl" placeholder="https://www.youtube.com/watch?v=VIDEO_ID" />
+  <button id="obtenerComentarios">OBTENER COMENTARIOS</button>
+  
+</div>
+
+<div class="window active load">
+  <h2>Comentarios Obtenidos</h2>
+  <div id="commentsContainer">
+    <ol id="result">
+    </ol>
+    <button class="center" id="generate">GENERAR RESULTADOS</button>
+  </div>
+</div>
+
+<div class="window result load">
+     
+  <ol id="resultados">
+  </ol>
+
+</div>
+  
+  <!-- Archivo JavaScript -->
+<script src="../js/tools-Script.js"></script>
+<script src="../js/tools-Script.js"></script>
+<script src="../js/algoritmoDeAnaliz.js"></script>
+<script src="../js/script.js"></script>
+</body>
+</html>

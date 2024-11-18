@@ -1,0 +1,97 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+    background-color: #C4B8A9;
+
+}
+
+.title{
+    text-align: center;
+    font-size: 3rem;
+}
+
+.window{
+    margin: auto;
+    margin-bottom: 30px;
+    width: 800px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: #F80500;
+    border-radius: 7px;
+    box-shadow: 0 0 10px #000;
+}
+
+.containerExecute label{
+    color: #fff;
+    margin-bottom: 10px;
+    font-family: sans-serif;;
+}
+
+.containerExecute input{
+    margin-bottom: 20px;
+    border: 0;
+    border-radius: 5px;
+    height: 2rem;
+    
+}
+
+button{
+    margin: auto;
+    width: 300px;
+    height: 2rem;
+    border: 0;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #000;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+button:active{
+    background-color: #000;
+    color: #FFF;
+}
+
+ol li{
+    color: #fff;
+}
+
+b{
+    color: #000;
+}
+
+#contrasenia{
+    height: 20px;
+    border: 0;
+    border-radius: 5px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+#commentsContainer ol li{
+    color: #fff;
+}
+
+.center{
+    display: block;
+    margin: auto;
+}
+.verificar{
+    display: flex;
+    flex-direction: row;
+}
+
+.verificar button{
+    height: 20px;
+}
+
+.active{
+    display: block;
+}
+
+.load{
+    display: none;
+}
+

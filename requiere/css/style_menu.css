@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+h1{
+    text-align: center;
+}
+
+.body{
+    width: 700px;
+    margin: auto;
+}
+
+a{
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0  10px #000;
+    text-decoration: none;
+    margin: 7px;
+}
+
+a:visited{
+    color: inherit;
+}
